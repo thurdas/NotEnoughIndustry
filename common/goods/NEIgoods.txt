@@ -1,0 +1,38 @@
+############
+# MILITARY #
+############
+
+##########
+# STAPLE #
+##########
+
+##########
+# LUXURY #
+##########
+
+apples = {
+	texture = "gfx/interface/icons/goods_icons/apples.dds"
+	cost = 30
+	category = luxury
+
+	obsession_chance = 1.0
+	prestige_factor = 4
+
+	traded_quantity = 15
+	convoy_cost_multiplier = 0.75
+
+	consumption_tax_cost = 200
+}
+
+cocoa = {
+	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+	cost = 35
+	category = staple
+
+	prestige_factor = 3
+
+	traded_quantity = 20
+	convoy_cost_multiplier = 0.25
+
+	consumption_tax_cost = 100
+}

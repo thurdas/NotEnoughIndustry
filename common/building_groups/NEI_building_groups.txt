@@ -1,0 +1,11 @@
+﻿bg_apples_plantations = {
+	parent_group = bg_plantations
+
+	default_building = building_apples_plantation
+}
+
+bg_cocoa_plantations = {
+	parent_group = bg_plantations
+
+	default_building = building_cocoa_plantation
+}

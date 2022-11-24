@@ -1,0 +1,9 @@
+﻿default_farm = {
+	building_apples_plantation = {
+		"european_rural_plantation_01_mesh"
+	}
+
+	building_cocoa_plantation = {
+		"european_rural_plantation_01_mesh"
+	}
+}

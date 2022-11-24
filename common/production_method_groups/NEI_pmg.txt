@@ -1,0 +1,11 @@
+﻿pmg_base_building_apples_plants = {
+	production_methods = {
+		pm_building_apples_plantation
+	}
+}
+
+pmg_base_building_cocoa_plants = {
+	production_methods = {
+		pm_building_cocoa_plantation
+	}
+}

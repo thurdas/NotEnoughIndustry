@@ -1,0 +1,35 @@
+############# FARMING & RANCHING
+
+building_apples_plantation = {
+	building_group = bg_apples_plantations
+	texture = "gfx/interface/icons/goods_icons/apples_plantation.dds"
+	required_construction = construction_cost_low
+
+		unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_apples_plants
+	}
+}
+
+building_cocoa_plantation = {
+	building_group = bg_cocoa_plantations
+	texture = "gfx/interface/icons/goods_icons/cocoa_plantation.dds"
+	required_construction = construction_cost_low
+
+		unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_cocoa_plants
+	}
+}

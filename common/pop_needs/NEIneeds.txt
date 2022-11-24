@@ -1,0 +1,79 @@
+popneed_basic_food = {
+	default = grain
+
+	entry = {
+		goods = grain
+
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = fish
+
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = meat
+
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = fruit
+
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+    	goods = apples
+
+    	weight = 0.5
+    	max_weight = 2.0 # Maxes out at 80% of supply share
+    	min_weight = 0.0
+    }
+
+	entry = {
+		goods = groceries
+
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_food = {
+	default = meat
+
+	entry = {
+		goods = meat
+
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = sugar
+
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+    	goods = cocoa
+
+    	weight = 0.5
+    	max_weight = 2.0 # Maxes out at 80% of supply share
+    	min_weight = 0.0
+    }
+}

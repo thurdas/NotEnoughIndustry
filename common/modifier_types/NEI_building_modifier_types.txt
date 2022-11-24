@@ -1,0 +1,9 @@
+﻿building_output_apples_add = {
+	good = yes
+	percent = no
+}
+
+building_output_cocoa_add = {
+	good = yes
+	percent = no
+}

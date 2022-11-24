@@ -1,0 +1,107 @@
+STATE_GUERRERO = {
+    id = 333
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x01EFB4" "x0B94E3" "x10EF01" "x469921" "x4712FC" "x5AC30A" "x600DE6" "x8CC01A" "xA80151" "xAA660B" "xB846DD" "xDF5040" "xF28CF4" }
+    traits = { "state_trait_sierra_madre_oriental" }
+    city = "x4712FC"
+    port = "x4712FC"
+    farm = "x01EFB4"
+    mine = "x5AC30A"
+    wood = "x600DE6"
+    arable_land = 100
+    arable_resources = { "bg_cocoa_plantations" "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 24
+        bg_lead_mining = 15
+        bg_logging = 8
+        bg_fishing = 4
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 3
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 8
+    }
+    naval_exit_id = 3155
+}
+
+STATE_OAXACA = {
+    id = 673
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x08E7F6" "x1616D8" "x1BC4D0" "x2113D8" "x3A8CF5" "x44D03C" "x460749" "x502C96" "x51A981" "x651EB1" "x8293A6" "x90B040" "x90B0C0" "x98D949" "xA095E4" "xA547C9" "xAF030C" "xC0C070" "xC83AE5" "xD30430" }
+    traits = { "state_trait_sierra_madre_oriental" }
+    city = "x44D03C"
+    port = "xC83AE5"
+    farm = "x90B040"
+    mine = "x08E7F6"
+    wood = "xC83AE5"
+    arable_land = 100
+    arable_resources = { "bg_cocoa_plantations" "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 24
+        bg_lead_mining = 15
+        bg_logging = 7
+        bg_fishing = 4
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 2
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 6
+    }
+    naval_exit_id = 3155
+}
+
+STATE_VERACRUZ = {
+    id = 670
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x067F2A" "x1B2176" "x1B599E" "x1C69F0" "x1CB3F9" "x253627" "x447790" "x4BF28B" "x5CE75E" "x5ED62A" "x87A6C4" "x8A6294" "x9030C0" "x9BDCE5" "xD08EE2" "xD0EF80" "xECF9FC" "xEE1E8B" }
+    traits = { "state_trait_sierra_madre_oriental" }
+    city = "xEE1E8B"
+    port = "x9030C0"
+    farm = "x1C69F0"
+    mine = "x5ED62A"
+    wood = "x5ED62A"
+    arable_land = 120
+    arable_resources = { "bg_cocoa_plantations" "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_iron_mining = 9
+        bg_lead_mining = 12
+        bg_logging = 6
+        bg_fishing = 7
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 8
+    }
+    naval_exit_id = 3060
+}
+
+STATE_CHIAPAS = {
+    id = 336
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1030C0" "x10B0C0" "x1521F4" "x31E49A" "x4DBDE9" "x8E26C5" "xA087F6" "xA46BA0" "xA6550F" "xB70B3B" "xD03040" "xE0AADA" "xE8CFA0" "xF19260" }
+    traits = { "state_trait_central_american_cordilleras" }
+    city = "x1521F4"
+    port = "x651EB1"
+    farm = "x4DBDE9"
+    mine = "x1521F4"
+    wood = "x1030C0"
+    arable_land = 20
+    arable_resources = { "bg_cocoa_plantations" "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_logging = 14
+        bg_fishing = 7
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 24
+    }
+    naval_exit_id = 3155
+}
